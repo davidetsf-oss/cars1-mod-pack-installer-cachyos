@@ -9,6 +9,15 @@ Uno strumento automatizzato per installare e gestire in modo sicuro e pulito l'*
 
 ---
 
+## 📥 Download del Mod Pack & Riferimenti Originali
+
+Il mod pack originale è stato creato e raccolto da [**Random12multi**](https://www.reddit.com/user/Random12multi/):
+- 🌐 **Post Reddit Ufficiale**: [r/pcars: I made a mod pack for Project CARS 1 that adds 50+ cars...](https://www.reddit.com/r/pcars/comments/82u8kb/i_made_a_mod_pack_for_project_cars_1_that_adds_50/)
+- 💾 **Download Mod Pack (MediaFire, ~6.5 GB)**: [Project Cars 1 Ultimate Mod Pack.rar](http://www.mediafire.com/file/31sbfx1sm8tdxpk/Project%20Cars%201%20Ultimate%20Mod%20Pack.rar)
+- 👤 **Autore del Mod Pack**: [u/Random12multi su Reddit](https://www.reddit.com/user/Random12multi/)
+
+---
+
 ## 🎯 Il Problema Risolto (Linux & Case-Sensitivity)
 
 Su Windows (NTFS), il file system ignora la differenza tra maiuscole e minuscole (*case-insensitive*). Strumenti tradizionali come **JSGME** (JoneSoft Generic Mod Enabler) creano o sovrascrivono cartelle indistintamente.
@@ -113,4 +122,5 @@ Il pacchetto include 56 categorie di mod configurate nell'ordine ottimale (`JSGM
 ## ⚖️ Licenza e Crediti
 
 - **Installer Tool**: Rilasciato sotto licenza MIT.
-- **Mod Asset**: I modelli 3D, le fisiche e i suoni appartengono ai rispettivi autori della community di Project CARS (Slightly Mad Studios, ThunderFlash, JDougNY, Random12multi, KAOS Modding Team, ecc.).
+- **Creatore Mod Pack**: Raccolto e testato da [Random12multi](https://www.reddit.com/user/Random12multi/) ([Post Reddit](https://www.reddit.com/r/pcars/comments/82u8kb/i_made_a_mod_pack_for_project_cars_1_that_adds_50/) | [Download MediaFire](http://www.mediafire.com/file/31sbfx1sm8tdxpk/Project%20Cars%201%20Ultimate%20Mod%20Pack.rar)).
+- **Mod Asset**: I modelli 3D, le fisiche e i suoni appartengono ai rispettivi autori della community di Project CARS (Slightly Mad Studios, ThunderFlash, JDougNY, KAOS Modding Team, ecc.).

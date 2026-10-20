@@ -5,13 +5,10 @@ Project CARS 1 - Mod Pack Installer & Manager for Linux (CachyOS / Arch / Proton
 Author: Davide & Antigravity (AI Assistant)
 License: MIT
 
-Features:
-- Automatic Steam / Project CARS installation detection (Native & Flatpak, multiple libraries)
-- Safe case-insensitive path resolver avoiding duplicate directories (Vehicles vs vehicles, Audio vs audio, etc.)
-- Automatic Copy-on-Write (Btrfs/XFS reflink) for lightning-fast installation and zero initial disk waste
-- Full safety backup of vanilla files before overwriting
-- Comprehensive JSON manifest logging
-- Clean, one-command uninstallation restoring 100% vanilla game state
+Mod Pack Credits & References:
+- Author: Random12multi (https://www.reddit.com/user/Random12multi/)
+- Reddit Thread: https://www.reddit.com/r/pcars/comments/82u8kb/i_made_a_mod_pack_for_project_cars_1_that_adds_50/
+- Mod Pack Download: http://www.mediafire.com/file/31sbfx1sm8tdxpk/Project%20Cars%201%20Ultimate%20Mod%20Pack.rar
 """
 
 import os
@@ -453,7 +450,13 @@ rm -f "$GAME_DIR/uninstall_mods.sh"
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Project CARS 1 - Mod Pack Installer & Manager per Linux (CachyOS / Arch / Proton)"
+        description="Project CARS 1 - Mod Pack Installer & Manager per Linux (CachyOS / Arch / Proton)",
+        epilog="""Riferimenti Mod Pack:
+  Autore: Random12multi (https://www.reddit.com/user/Random12multi/)
+  Reddit: https://www.reddit.com/r/pcars/comments/82u8kb/i_made_a_mod_pack_for_project_cars_1_that_adds_50/
+  Download: http://www.mediafire.com/file/31sbfx1sm8tdxpk/Project%20Cars%201%20Ultimate%20Mod%20Pack.rar
+""",
+        formatter_class=argparse.RawDescriptionHelpFormatter
     )
     parser.add_argument("action", nargs="?", default="install", choices=["install", "uninstall", "status"],
                         help="Azione da compiere: install (default), uninstall, status")
