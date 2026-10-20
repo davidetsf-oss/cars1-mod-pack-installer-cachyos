@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.backup_vanilla/
+.modpack_manifest.json
+*.log
+.DS_Store
