@@ -75,10 +75,18 @@ python3 pcars_mod_installer.py install --source "/path/to/ModPack" --target "/pa
 
 | Command | Description |
 |---|---|
-| `./install.sh` | Installs all 56 mods in correct dependency order with automated vanilla backups |
-| `./status.sh` | Displays current mod status, active mod count, file count, and installation date |
-| `./uninstall.sh` | Restores original vanilla files and removes all modded content cleanly |
-| `python3 pcars_mod_installer.py install --dry-run` | Simulates the installation process without writing any changes to disk |
+| `./list.sh` | Lists all available cars grouped by brand and category, showing installation status |
+| `./install.sh` | Starts installation (prompts whether to install all or choose via interactive menu) |
+| `./install.sh --all` | Directly installs all 56 mods (70+ cars) |
+| `./install.sh --interactive` | Interactive terminal UI menu to pick cars by brand, category, or individual vehicle |
+| `./install.sh --brand ferrari,porsche` | Selectively installs only specified brands (e.g. Ferrari, Porsche, Audi, BMW...) |
+| `./install.sh --category gt3,gt1` | Selectively installs only specified classes (GT3, GT1, Hypercars, Tuners...) |
+| `./status.sh` | Displays current mod status, active cars list, and installation date |
+| `./uninstall.sh` | Interactive uninstallation prompt (choose between full or selective removal) |
+| `./uninstall.sh --all` | Uninstalls everything and restores the game back to 100% untouched vanilla state |
+| `./uninstall.sh --interactive` | Interactive menu to choose specific cars to remove while keeping others |
+| `./uninstall.sh --brand <brand>` | Removes only cars of a specific brand (e.g. `./uninstall.sh --brand ferrari`) |
+| `python3 pcars_mod_installer.py install --dry-run` | Simulates actions without writing changes to disk |
 
 ---
 
